@@ -53,6 +53,22 @@ When lesson updates are wanted, write durable artifacts only:
 
 Do not record a full chat transcript, unverified claims, or material merely mentioned. Mark constructed, simplified, and illustrative language data clearly. Use Mermaid only when it improves recall; do not make a PDF unless requested.
 
+## Resume in a new chat
+
+Long chat history is not the learner's source of truth. At a natural stopping point, when the learner says they will continue later, or before a conversation becomes unwieldy, create a compact handoff record at `learning-records/NNNN-short-title.md`. A handoff may describe unfinished work; mastery is not required.
+
+Include only:
+
+- active chapter and the exact concept or exercise reached;
+- confirmed understanding and one important correction, if any;
+- the current hypothesis, unfinished work, or open question;
+- one concrete next step;
+- an optional one-sentence recall prompt for the next session.
+
+In a fresh chat, first read the active chapter plus the most recent handoff record. State the recovered position briefly, then resume with the recorded recall prompt or next step. If no handoff exists, infer the position from the chapter notes and `questions.md`; ask the learner only when the workspace cannot establish it safely.
+
+Suggested fresh-chat prompt: `Use $teach-notes. Continue from <chapter path>; read the latest learning record, tell me where we stopped, then start with one short recall question.`
+
 ## Learner controls
 
 Honor these immediately:
@@ -62,4 +78,3 @@ Honor these immediately:
 - `多问我 / 苏格拉底模式`：increase questioning while keeping one question per turn.
 - `总结 / 记录`：write a compact durable update.
 - `暂停记录`：teach without editing files.
-
