@@ -44,9 +44,20 @@ Use $teach-notes to teach me from my current chapter and update the learning not
 
 `直接讲` · `给提示` · `多问我 / 苏格拉底模式` · `总结 / 记录` · `暂停记录`
 
+## Continue in a new chat / 在新聊天中继续
+
+Long conversations should not be the only memory. At a natural stopping point, the skill writes a short handoff record under `learning-records/`: current chapter, confirmed understanding, unfinished question or exercise, one next step, and an optional recall prompt.
+
+长对话不应成为唯一的记忆来源。每次自然停点，技能会在 `learning-records/` 写一份简短交接记录：当前章节、已确认理解、未完成问题或练习、下一步，以及可选的回忆题。
+
+Start the next conversation with / 下次新开聊天时直接说：
+
+```text
+Use $teach-notes. Continue from <chapter path>; read the latest learning record, tell me where we stopped, then start with one short recall question.
+```
+
 ## License and attribution / 许可证与来源
 
 This skill is independently written and released under the [MIT License](LICENSE). Its open-source teaching-design influences, licenses, and a statement that no prose or code was copied verbatim are in [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 本技能独立编写，以 [MIT License](LICENSE) 发布。其开源教学设计参考、各自许可证，以及“未逐字复制代码或文字”的说明均见 [ATTRIBUTIONS.md](ATTRIBUTIONS.md)。
-
