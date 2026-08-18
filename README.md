@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.6 seconds
+Output:
 # Teach Notes / 笔记私教
 
 **English** · **中文**
@@ -12,6 +15,7 @@
 - **Small, adaptive Socratic dialogue:** clarify, evidence, connection, counterexample, transfer, and explain-back prompts reveal reasoning without turning the lesson into an interrogation.
 - **Maintain useful notes:** write confirmed concepts to `README.md`, open questions to `questions.md`, sources to `sources.md`, and meaningful progress to short learning records.
 - **Protect learning quality:** do not save full chat transcripts or unverified claims; clearly label constructed or simplified data.
+- **Create retrieval briefs:** turn selected notes plus the current learning state into focused Chinese/English source queries; inspect the brief first, search public sources, or constrain a search to a named accessible textbook folder.
 
 - **按水平教学：** 新概念先给清晰定义和一个例子，再提问；有部分理解时只问一个聚焦问题。
 - **小步苏格拉底对话：** 使用澄清、证据、连接、反例、迁移、复述等问题理解思路，而不是“拷问”。
@@ -61,3 +65,4 @@ Use $teach-notes. Read _learning/CURRENT.md, tell me where we stopped, then star
 This skill is independently written and released under the [MIT License](LICENSE). Its open-source teaching-design influences, licenses, and a statement that no prose or code was copied verbatim are in [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 本技能独立编写，以 [MIT License](LICENSE) 发布。其开源教学设计参考、各自许可证，以及“未逐字复制代码或文字”的说明均见 [ATTRIBUTIONS.md](ATTRIBUTIONS.md)。
+
