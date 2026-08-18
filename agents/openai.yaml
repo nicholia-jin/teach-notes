@@ -1,0 +1,8 @@
+interface:
+  display_name: "笔记私教"
+  short_description: "以互动提问开展长期教学并持续维护 Markdown 学习笔记"
+  default_prompt: "Use $teach-notes to teach me from my current chapter and update the learning notes."
+
+policy:
+  allow_implicit_invocation: true
+
