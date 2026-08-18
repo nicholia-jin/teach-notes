@@ -46,14 +46,14 @@ Use $teach-notes to teach me from my current chapter and update the learning not
 
 ## Continue in a new chat / 在新聊天中继续
 
-Long conversations should not be the only memory. At a natural stopping point, the skill writes a short handoff record under `learning-records/`: current chapter, confirmed understanding, unfinished question or exercise, one next step, and an optional recall prompt.
+Long conversations should not be the only memory. The skill maintains one short, visible `_learning/CURRENT.md` file (about 200 words): current chapter, confirmed understanding, unfinished question or exercise, one next step, and an optional recall prompt. It reads this file—not the whole archive—when a new chat starts.
 
-长对话不应成为唯一的记忆来源。每次自然停点，技能会在 `learning-records/` 写一份简短交接记录：当前章节、已确认理解、未完成问题或练习、下一步，以及可选的回忆题。
+长对话不应成为唯一的记忆来源。技能会维护一份简短、可见的 `_learning/CURRENT.md`（约 200 词）：当前章节、已确认理解、未完成问题或练习、下一步和可选回忆题。新聊天只读这一份，不会自动载入全部历史。
 
 Start the next conversation with / 下次新开聊天时直接说：
 
 ```text
-Use $teach-notes. Continue from <chapter path>; read the latest learning record, tell me where we stopped, then start with one short recall question.
+Use $teach-notes. Read _learning/CURRENT.md, tell me where we stopped, then start with one short recall question.
 ```
 
 ## License and attribution / 许可证与来源
