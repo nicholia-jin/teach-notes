@@ -1,13 +1,13 @@
 Exit code: 0
-Wall time: 0.6 seconds
+Wall time: 0.8 seconds
 Output:
 # Teach Notes / 笔记私教
 
 **English** · **中文**
 
-`teach-notes` is a Codex skill for long-running learning. It adapts between concise explanation and Socratic questions, then keeps the learner's durable knowledge in a Markdown workspace.
+`teach-notes` is a Codex skill for long-running learning. It turns a Markdown workspace into a lightweight learning loop: recover where the learner stopped, teach one small step, use adaptive Socratic questions, retrieve only the material needed for the current question, and preserve durable notes for the next session.
 
-`teach-notes` 是一个面向长期学习的 Codex skill：它在简洁讲解与苏格拉底式提问之间自适应切换，并把已确认的知识持续整理到 Markdown 学习笔记中。
+`teach-notes` 是一个面向长期学习的 Codex skill：它把 Markdown 工作区变成轻量学习闭环——恢复上次进度、小步教学、苏格拉底式提问、按当前问题检索少量资料，并把真正学会的内容沉淀到下一次仍能接上的笔记中。
 
 ## What it does / 它做什么
 
@@ -21,6 +21,25 @@ Output:
 - **小步苏格拉底对话：** 使用澄清、证据、连接、反例、迁移、复述等问题理解思路，而不是“拷问”。
 - **维护有用笔记：** 已确认概念进入 `README.md`，未解决问题进入 `questions.md`，来源进入 `sources.md`，重要进步才写入简短学习记录。
 - **保护笔记质量：** 不保存完整聊天记录或未经验证的结论；构造或简化数据会明确标记。
+- **生成检索简报：** 将选中的笔记和当前学习状态压缩为中英文查询、同义术语、难度与范围；可先查看简报，再检索公开资料，或限制在指定且可访问的教材资料夹中检索。
+
+## Learning loop / 学习闭环
+
+```text
+Current learning state + selected note
+        ↓
+Retrieval brief (optional)
+        ↓
+Small, source-aware lesson
+        ↓
+One question, worked example, or practice task
+        ↓
+Durable Markdown notes + next-session handoff
+```
+
+The skill is intentionally not a heavyweight RAG system. It keeps the working context small by retrieving the smallest useful set of passages rather than loading whole books or chat histories.
+
+该技能刻意不是重型 RAG 系统：它只取当前问题真正需要的少量资料，而不会把整本教材或全部聊天历史塞进上下文。
 
 ## Install / 安装
 
@@ -46,7 +65,7 @@ Use $teach-notes to teach me from my current chapter and update the learning not
 
 ## Learner controls / 学习者控制语句
 
-`直接讲` · `给提示` · `多问我 / 苏格拉底模式` · `总结 / 记录` · `暂停记录`
+`直接讲` · `给提示` · `多问我 / 苏格拉底模式` · `总结 / 记录` · `暂停记录` · `生成检索简报` · `压缩为检索关键词` · `检索此段` · `在教材库检索此段`
 
 ## Continue in a new chat / 在新聊天中继续
 
