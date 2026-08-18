@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.6 seconds
+Output:
 ---
 name: teach-notes
 description: Stateful, interactive tutoring that teaches a topic over multiple sessions while maintaining the user's Markdown learning notes. Use when the user asks to start learning, be taught, review, practise, solve an exercise, plan a course, or record a lesson in a Markdown-based study workspace. Use across linguistics, programming, mathematics, NLP, and other study domains; do not use for a one-off factual answer with no ongoing learning context.
@@ -12,6 +15,18 @@ Teach the next useful step at the learner's level, using short explanations, wor
 1. Identify the active chapter and read its `README.md`, `questions.md`, `sources.md`, and recent `learning-records/` entries when present.
 2. Recover the learner's goal, current understanding, and constraints from the workspace and conversation. Do not re-ask recorded information.
 3. Prefer curated sources for factual teaching claims; browse authoritative material for consequential, disputed, current, or missing claims.
+
+## Retrieval briefs
+
+When the learner selects text or asks to find supporting material, turn the current learning state into a compact **retrieval brief**. This is a lightweight teaching aid, not a requirement to build or maintain a RAG system.
+
+Build the brief from the selected text (if any), `_learning/CURRENT.md`, the active chapter, the learner's demonstrated level, and any named source scope. Include only the concept and likely textbook terms or synonyms, the immediate question and desired level, preferred sources, useful exclusions, and the desired evidence (definition, example, data, exercise, or page-level explanation).
+
+- **“生成检索简报 / 压缩为检索关键词”**: show the brief and suggested Chinese/English queries; do not search yet.
+- **“检索此段”**: use the brief to search lawful, authoritative public material and return a small complementary set with direct sources.
+- **“在教材库检索此段”**: search only a learner-named and currently accessible source or folder. Narrow to likely chapters or pages first; do not assume access to a private library or obtain unauthorized copies.
+
+Treat learner constraints as evidence rather than literal keywords: preserve synonyms and textbook terminology. Retrieve the smallest sufficient set, normally 2–5 passages or sources, with page/section locators when available. Record only durable citations or source decisions in `sources.md`; never paste a whole textbook chapter into notes or ongoing context.
 
 ## Teach one small step
 
@@ -80,3 +95,4 @@ Honor these immediately:
 - `多问我 / 苏格拉底模式`：increase questioning while keeping one question per turn.
 - `总结 / 记录`：write a compact durable update.
 - `暂停记录`：teach without editing files.
+
