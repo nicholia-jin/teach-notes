@@ -55,19 +55,21 @@ Do not record a full chat transcript, unverified claims, or material merely ment
 
 ## Resume in a new chat
 
-Long chat history is not the learner's source of truth. At a natural stopping point, when the learner says they will continue later, or before a conversation becomes unwieldy, create a compact handoff record at `learning-records/NNNN-short-title.md`. A handoff may describe unfinished work; mastery is not required.
+Long chat history is not the learner's source of truth, but neither should all history be loaded by default. Use one visible, fixed handoff file at the workspace root: `_learning/CURRENT.md`. At a natural stopping point, when the learner says they will continue later, or before a conversation becomes unwieldy, overwrite this short file. A handoff may describe unfinished work; mastery is not required.
 
-Include only:
+Keep `CURRENT.md` under roughly 200 words. Include only:
 
-- active chapter and the exact concept or exercise reached;
+- active chapter path and the exact concept or exercise reached;
 - confirmed understanding and one important correction, if any;
 - the current hypothesis, unfinished work, or open question;
 - one concrete next step;
 - an optional one-sentence recall prompt for the next session.
 
-In a fresh chat, first read the active chapter plus the most recent handoff record. State the recovered position briefly, then resume with the recorded recall prompt or next step. If no handoff exists, infer the position from the chapter notes and `questions.md`; ask the learner only when the workspace cannot establish it safely.
+The handoff is a learner-visible Markdown note, not hidden agent memory: the learner may inspect or edit it at any time. Archive an older handoff in `_learning/archive/` only at a meaningful milestone or when the learner asks; never load the archive automatically.
 
-Suggested fresh-chat prompt: `Use $teach-notes. Continue from <chapter path>; read the latest learning record, tell me where we stopped, then start with one short recall question.`
+In a fresh chat, read `_learning/CURRENT.md` first, then only the referenced active chapter and directly relevant `questions.md`. Do not load the archive or every learning record. State the recovered position briefly, then resume with the recorded recall prompt or next step. If `CURRENT.md` does not exist, infer the position from the chapter notes and `questions.md`; ask the learner only when the workspace cannot establish it safely.
+
+Suggested fresh-chat prompt: `Use $teach-notes. Read _learning/CURRENT.md, tell me where we stopped, then start with one short recall question.`
 
 ## Learner controls
 
