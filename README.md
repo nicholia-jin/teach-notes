@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 0.8 seconds
+Wall time: 0.7 seconds
 Output:
 # Teach Notes / 笔记私教
 
@@ -16,6 +16,9 @@ Output:
 - **Maintain useful notes:** write confirmed concepts to `README.md`, open questions to `questions.md`, sources to `sources.md`, and meaningful progress to short learning records.
 - **Protect learning quality:** do not save full chat transcripts or unverified claims; clearly label constructed or simplified data.
 - **Create retrieval briefs:** turn selected notes plus the current learning state into focused Chinese/English source queries; inspect the brief first, search public sources, or constrain a search to a named accessible textbook folder.
+- **Set lesson contracts:** for source-based lessons, state the source scope, outcome, challenge, and observable completion standard; separate a diagnostic warm-up from demonstrated mastery.
+- **Ground new topics in sources:** anchor a new chapter or concept in a named source, university course, or authoritative academic material; GitHub is workflow inspiration only, never factual authority.
+- **End cleanly:** when the learner stops for the day, update durable notes and one compact handoff rather than relying on chat history.
 
 - **按水平教学：** 新概念先给清晰定义和一个例子，再提问；有部分理解时只问一个聚焦问题。
 - **小步苏格拉底对话：** 使用澄清、证据、连接、反例、迁移、复述等问题理解思路，而不是“拷问”。
