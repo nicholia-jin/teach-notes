@@ -16,6 +16,7 @@
 - **Create retrieval briefs:** turn selected notes plus the current learning state into focused Chinese/English source queries; inspect the brief first, search public sources, or constrain a search to a named accessible textbook folder.
 - **Set lesson contracts:** for source-based lessons, state the source scope, outcome, challenge, and observable completion standard; separate a diagnostic warm-up from demonstrated mastery.
 - **Ground new topics in sources:** anchor a new chapter or concept in a named source, university course, or authoritative academic material; GitHub is workflow inspiration only, never factual authority.
+- **Build from a blueprint:** for multi-step learning, use authority-grounded milestones, dependencies, completion checks, and deliberately deferred topics; teach coherent blocks rather than interrupting every micro-step.
 - **End cleanly:** when the learner stops for the day, update durable notes and one compact handoff rather than relying on chat history.
 
 - **按水平教学：** 新概念先给清晰定义和一个例子，再提问；有部分理解时只问一个聚焦问题。
@@ -24,6 +25,7 @@
 - **区分知识地图与课堂轨迹：** `README.md` 保持精炼、便于复习；课堂中的关键推理、数据与纠正进入链接的 `lesson-notes/` 文件。
 - **保护笔记质量：** 不保存完整聊天记录或未经验证的结论；构造或简化数据会明确标记。
 - **生成检索简报：** 将选中的笔记和当前学习状态压缩为中英文查询、同义术语、难度与范围；可先查看简报，再检索公开资料，或限制在指定且可访问的教材资料夹中检索。
+- **按图纸建造：** 多步骤学习先依据权威来源列出依赖、里程碑、验收标准与暂缓内容；一次完成连贯学习块，而非每个微小步骤都停下来提问。
 
 ## Learning loop / 学习闭环
 
