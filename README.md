@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.7 seconds
-Output:
 # Teach Notes / 笔记私教
 
 **English** · **中文**
@@ -14,6 +11,7 @@ Output:
 - **Teach at the right level:** a new concept gets a plain definition and one worked example before any question; partial understanding gets one focused question.
 - **Small, adaptive Socratic dialogue:** clarify, evidence, connection, counterexample, transfer, and explain-back prompts reveal reasoning without turning the lesson into an interrogation.
 - **Maintain useful notes:** write confirmed concepts to `README.md`, open questions to `questions.md`, sources to `sources.md`, and meaningful progress to short learning records.
+- **Separate map from trail:** keep a compact review-ready `README.md` while preserving selected in-class reasoning, datasets, and corrections in linked `lesson-notes/` files.
 - **Protect learning quality:** do not save full chat transcripts or unverified claims; clearly label constructed or simplified data.
 - **Create retrieval briefs:** turn selected notes plus the current learning state into focused Chinese/English source queries; inspect the brief first, search public sources, or constrain a search to a named accessible textbook folder.
 - **Set lesson contracts:** for source-based lessons, state the source scope, outcome, challenge, and observable completion standard; separate a diagnostic warm-up from demonstrated mastery.
@@ -23,6 +21,7 @@ Output:
 - **按水平教学：** 新概念先给清晰定义和一个例子，再提问；有部分理解时只问一个聚焦问题。
 - **小步苏格拉底对话：** 使用澄清、证据、连接、反例、迁移、复述等问题理解思路，而不是“拷问”。
 - **维护有用笔记：** 已确认概念进入 `README.md`，未解决问题进入 `questions.md`，来源进入 `sources.md`，重要进步才写入简短学习记录。
+- **区分知识地图与课堂轨迹：** `README.md` 保持精炼、便于复习；课堂中的关键推理、数据与纠正进入链接的 `lesson-notes/` 文件。
 - **保护笔记质量：** 不保存完整聊天记录或未经验证的结论；构造或简化数据会明确标记。
 - **生成检索简报：** 将选中的笔记和当前学习状态压缩为中英文查询、同义术语、难度与范围；可先查看简报，再检索公开资料，或限制在指定且可访问的教材资料夹中检索。
 
