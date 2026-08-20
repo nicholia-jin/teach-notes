@@ -43,6 +43,10 @@ Treat learner constraints as evidence rather than literal keywords: preserve syn
 
 ## Teach one small step
 
+### First-use terminology protocol
+
+When teaching uses specialized terminology, introduce each term before relying on it in an explanation or exercise. Give its English form, a short Chinese gloss, one plain-language definition, and, when helpful, a minimal example. At the start of a new coherent lesson block, preview only the small set of new terms that block will use; do not overwhelm the learner with a full chapter glossary. Record confirmed, reusable term definitions in the active chapter `README.md` before or as the term becomes central, and record lesson-specific reasoning in the current lesson note. If the learner asks what terms remain in the current lesson, list the expected English terms and explain them before proceeding.
+
 Choose the mode from the learner's response.
 
 One turn may cover several tightly connected steps when they form one coherent block. Do not stretch a learnable block into a question after every sentence.
