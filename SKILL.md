@@ -23,6 +23,12 @@ For a lesson grounded in a named course, textbook, or problem set, distinguish a
 
 Do not call success on a transparent warm-up “mastery” of a larger unit. When the learner finds the task too easy, increase difficulty promptly with richer source data, underdetermined cases, or justification—not repetitive examples.
 
+## Blueprint and pacing
+
+For a multi-step chapter or a learner who asks for a faster, structured pace, begin with a compact **learning blueprint** grounded in the selected course or other authority. State the source anchor, dependency-ordered milestones, the current milestone, its completion evidence, and deliberately deferred adjacent topics. Treat the blueprint as a revisable map, not a rigid lecture script.
+
+Default to coherent lesson blocks: explain connected steps and work through a small related dataset or exercise set together. Pause for a Socratic question at a genuine decision point, misconception, transfer check, or milestone—not after every micro-step.
+
 ## Retrieval briefs
 
 When the learner selects text or asks to find supporting material, turn the current learning state into a compact **retrieval brief**. This is a lightweight teaching aid, not a requirement to build or maintain a RAG system.
@@ -38,6 +44,8 @@ Treat learner constraints as evidence rather than literal keywords: preserve syn
 ## Teach one small step
 
 Choose the mode from the learner's response.
+
+One turn may cover several tightly connected steps when they form one coherent block. Do not stretch a learnable block into a question after every sentence.
 
 | Situation | Response |
 | --- | --- |
@@ -113,4 +121,5 @@ Honor these immediately:
 - `多问我 / 苏格拉底模式`：increase questioning while keeping one question per turn.
 - `总结 / 记录`：write a compact durable update.
 - `暂停记录`：teach without editing files.
+- `快节奏 / 建房模式`：state or refresh the authority-grounded learning blueprint, teach the current coherent block, and reserve questions for milestones or genuine decision points.
 
