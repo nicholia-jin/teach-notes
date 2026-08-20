@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.7 seconds
-Output:
 ---
 name: teach-notes
 description: Stateful, interactive tutoring that teaches a topic over multiple sessions while maintaining the user's Markdown learning notes. Use when the user asks to start learning, be taught, review, practise, solve an exercise, plan a course, or record a lesson in a Markdown-based study workspace. Use across linguistics, programming, mathematics, NLP, and other study domains; do not use for a one-off factual answer with no ongoing learning context.
@@ -69,6 +66,15 @@ Do not ask several questions at once or repeatedly ask “why?”.
 ## Maintain the notes
 
 When lesson updates are wanted, write durable artifacts only:
+
+### Separate the learning map from the lesson trail
+
+For a chapter with substantive ongoing lessons, use two complementary layers instead of turning `README.md` into a chat transcript:
+
+- `README.md`: compact, learner-facing confirmed concepts, final or explicitly provisional analyses, essential examples, diagrams, navigation, and completion criteria.
+- `lesson-notes/NN-title.md`: concise learning-relevant datasets, hypotheses, corrections, worked reasoning, and the exact next exercise—not every chat exchange.
+
+Link the active lesson note from the chapter README. Move conclusions into the README only when they are supported and useful for later review; preserve uncertainty. Keep open hypotheses in `questions.md` and durable citations in `sources.md`.
 
 - `README.md`: confirmed concepts, compact maps, examples, and links.
 - `questions.md`: unresolved questions, hypotheses, misconceptions, and next-session prompts.
