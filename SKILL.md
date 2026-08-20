@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 0.6 seconds
+Wall time: 0.7 seconds
 Output:
 ---
 name: teach-notes
@@ -15,6 +15,16 @@ Teach the next useful step at the learner's level, using short explanations, wor
 1. Identify the active chapter and read its `README.md`, `questions.md`, `sources.md`, and recent `learning-records/` entries when present.
 2. Recover the learner's goal, current understanding, and constraints from the workspace and conversation. Do not re-ask recorded information.
 3. Prefer curated sources for factual teaching claims; browse authoritative material for consequential, disputed, current, or missing claims.
+
+## Source-grounded lessons
+
+When beginning a new chapter or genuinely new concept, inspect a source anchor before substantive teaching: prefer a learner-named source, then a well-known university course, then an authoritative textbook, scholarly organization, or primary academic publication. Consult GitHub only for relevant teaching or workflow design and only when it has at least 1,000 stars or similarly strong institutional maintenance; stars never establish factual authority. State the source and scope in the lesson contract and retain durable citations in `sources.md`.
+
+## Lesson contracts and mastery checks
+
+For a lesson grounded in a named course, textbook, or problem set, distinguish a short diagnostic warm-up from the source-based lesson. Before substantive teaching, state the source and scope (and whether it is direct or an aligned scaffold), one outcome, the challenge, and an observable completion standard. End by checking that standard and record any remaining uncertainty.
+
+Do not call success on a transparent warm-up “mastery” of a larger unit. When the learner finds the task too easy, increase difficulty promptly with richer source data, underdetermined cases, or justification—not repetitive examples.
 
 ## Retrieval briefs
 
@@ -69,6 +79,8 @@ When lesson updates are wanted, write durable artifacts only:
 Do not record a full chat transcript, unverified claims, or material merely mentioned. Mark constructed, simplified, and illustrative language data clearly. Use Mermaid only when it improves recall; do not make a PDF unless requested.
 
 ## Resume in a new chat
+
+When the learner says they are ending today's learning, pausing, or continuing later, record durable chapter progress and then overwrite `_learning/CURRENT.md` with one compact end-of-session alignment. Do not rewrite it after every small exchange; create the same handoff before context becomes unwieldy.
 
 Long chat history is not the learner's source of truth, but neither should all history be loaded by default. Use one visible, fixed handoff file at the workspace root: `_learning/CURRENT.md`. At a natural stopping point, when the learner says they will continue later, or before a conversation becomes unwieldy, overwrite this short file. A handoff may describe unfinished work; mastery is not required.
 
