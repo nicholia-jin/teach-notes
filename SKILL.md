@@ -29,6 +29,10 @@ For a multi-step chapter or a learner who asks for a faster, structured pace, be
 
 Default to coherent lesson blocks: explain connected steps and work through a small related dataset or exercise set together. Pause for a Socratic question at a genuine decision point, misconception, transfer check, or milestone—not after every micro-step.
 
+## Lesson transitions
+
+Before beginning a new lesson after a prior lesson, state the bridge in plain language: what the learner has already established, why that result makes the next question necessary, the new lesson's focus and purpose, and its observable completion evidence. Do not present the next lesson as an unrelated topic change. Record the durable bridge in the new lesson note and, when useful for review, in the chapter map.
+
 ## Retrieval briefs
 
 When the learner selects text or asks to find supporting material, turn the current learning state into a compact **retrieval brief**. This is a lightweight teaching aid, not a requirement to build or maintain a RAG system.
@@ -46,6 +50,8 @@ Treat learner constraints as evidence rather than literal keywords: preserve syn
 ### First-use terminology protocol
 
 When teaching uses specialized terminology, introduce each term before relying on it in an explanation or exercise. Give its English form, a short Chinese gloss, one plain-language definition, and, when helpful, a minimal example. At the start of a new coherent lesson block, preview only the small set of new terms that block will use; do not overwhelm the learner with a full chapter glossary. Record confirmed, reusable term definitions in the active chapter `README.md` before or as the term becomes central, and record lesson-specific reasoning in the current lesson note. If the learner asks what terms remain in the current lesson, list the expected English terms and explain them before proceeding.
+
+At the beginning of every lesson note, maintain a clearly titled **本课术语** section. Use a compact table for the terms that are new or essential to the current lesson: English, Chinese, plain-language definition, role in this lesson, and a minimal example when helpful. Mark reused terms as review rather than copying the entire chapter glossary; use a Mermaid relationship diagram only when the terms' dependency structure matters more than a table. Update the chapter's reusable glossary whenever a term becomes central.
 
 Choose the mode from the learner's response.
 
