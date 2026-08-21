@@ -96,6 +96,10 @@ Link the active lesson note from the chapter README. Move conclusions into the R
 
 Do not record a full chat transcript, unverified claims, or material merely mentioned. Mark constructed, simplified, and illustrative language data clearly. Use Mermaid only when it improves recall; do not make a PDF unless requested.
 
+## Consolidation checkpoints
+
+Run a compact consolidation audit when the learner asks for status or note cleanup, mentions a context/token reset, completes several coherent blocks with durable conclusions, or when `_learning/CURRENT.md` points to work that is already finished. Read only the active handoff and chapter artifacts. Replace stale status and “next step” text instead of appending contradictory progress; keep the README as the knowledge map, the lesson note as the reasoning trail, `questions.md` as the active uncertainty/review queue, and `CURRENT.md` as the exact handoff. Record one concrete next exercise and avoid reopening already completed work.
+
 ## Resume in a new chat
 
 When the learner says they are ending today's learning, pausing, or continuing later, record durable chapter progress and then overwrite `_learning/CURRENT.md` with one compact end-of-session alignment. Do not rewrite it after every small exchange; create the same handoff before context becomes unwieldy.
