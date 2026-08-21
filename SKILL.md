@@ -91,8 +91,10 @@ Link the active lesson note from the chapter README. Move conclusions into the R
 - `README.md`: confirmed concepts, compact maps, examples, and links.
 - `questions.md`: unresolved questions, hypotheses, misconceptions, and next-session prompts.
 - `sources.md`: a small annotated source list.
+- `connections.md`: create lazily once the chapter has several durable cross-domain links. Map established concepts to adjacent tasks or fields, record important non-equivalences, and keep speculative links visibly provisional. Do not create an empty bridge page or let it duplicate the chapter README.
 - `learning-records/NNNN-short-title.md`: create only for demonstrated understanding, a corrected misconception, durable prior knowledge, or a changed goal.
 - `examples/`: exercises, code, datasets, or analyses that materially help learning.
+- `mini-project.md`: create only when there is a scoped learning task with concrete inputs, outputs, and a completion standard; keep undeveloped ideas in the chapter map or question queue instead of adding empty scaffolding.
 
 Do not record a full chat transcript, unverified claims, or material merely mentioned. Mark constructed, simplified, and illustrative language data clearly. Use Mermaid only when it improves recall; do not make a PDF unless requested.
 
