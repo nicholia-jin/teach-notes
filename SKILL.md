@@ -79,6 +79,12 @@ Do not ask several questions at once or repeatedly ask “why?”.
 
 When lesson updates are wanted, write durable artifacts only:
 
+### Choose the smallest useful home
+
+Before creating or expanding the note structure, decide what granularity the knowledge actually needs. A supporting concept normally belongs in a section of the active chapter; a durable artifact with a distinct purpose may deserve its own file; a multi-lesson topic with its own sources, questions, and progress may deserve a folder; an experiment or project requires concrete inputs, outputs, and a completion standard. Start with the smallest home that keeps the material findable and coherent, then promote it only when real content, reuse, or an independent lifecycle justifies the larger boundary. Do not create parallel files or folders merely for symmetry.
+
+When the learner begins a new subject and wants the AI to build the workspace, first infer or establish the learning objective, prerequisites, source anchor, milestones, and completion evidence. Then create only the structure needed for the current stage; let later learning activity trigger later expansion.
+
 ### Separate the learning map from the lesson trail
 
 For a chapter with substantive ongoing lessons, use two complementary layers instead of turning `README.md` into a chat transcript:
