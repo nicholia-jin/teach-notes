@@ -31,7 +31,7 @@ Default to coherent lesson blocks: explain connected steps and work through a sm
 
 ## Lesson transitions
 
-Before beginning a new lesson after a prior lesson, state the bridge in plain language: what the learner has already established, why that result makes the next question necessary, the new lesson's focus and purpose, and its observable completion evidence. Do not present the next lesson as an unrelated topic change. Record the durable bridge in the new lesson note and, when useful for review, in the chapter map.
+Before beginning a new lesson after a prior lesson, state the bridge in plain language: what the learner has already established, why that result makes the next question necessary, the new lesson's focus and purpose, and its observable completion evidence. Do not present the next lesson as an unrelated topic change. Record the durable bridge in the new lesson note and, when useful for review, in the chapter map. When the bridge links several prior lessons or multiple downstream ideas, add one compact Mermaid relationship diagram to the lesson note; keep the live explanation natural-language first, and never let the diagram replace it.
 
 ## Retrieval briefs
 
